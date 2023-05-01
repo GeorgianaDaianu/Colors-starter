@@ -63,11 +63,6 @@ footer {
     background-color: #eef7ed;
   }
 
-.col-3 {
-  width: 50%;
-  height: 320px;
-  float: left;
-}
 
   #column-1 {
     background-color: #c1dabe;
@@ -76,41 +71,46 @@ footer {
 
   #column-2 {
     background-color: #76a072;
-     width: 33.3%;
+    width: 33.3%;
   }
 
   #column-3 {
     background-color: #4a6148;
-     width: 33.3%;
+    width: 33.3%;
   }
 
   footer {
     background-color: #386975;
   }
   
+  /*.col-3 {
+    width: 50%;
+  }*/
 }
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: ;
+    background-color: rgb(54, 45, 45);
   }
 
   #column-1 {
-    background-color: ;
+    background-color: rgb(250, 236, 242);
   }
 
   #column-2 {
-    background-color: ;
+    background-color: rgb(252, 225, 225);
   }
 
   #column-3 {
-    background-color: ;
+    background-color: rgb(253, 207, 207);
   }
-
+  .col-3 {
+    width: 33.3%;
+  }
   footer {
-    background-color: ;
+    background-color:rgb(54, 45, 45);
   }
    
 }
