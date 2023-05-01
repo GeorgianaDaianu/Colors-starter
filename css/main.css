@@ -63,16 +63,25 @@ footer {
     background-color: #eef7ed;
   }
 
+.col-3 {
+  width: 50%;
+  height: 320px;
+  float: left;
+}
+
   #column-1 {
     background-color: #c1dabe;
+    width: 33.3%;
   }
 
   #column-2 {
     background-color: #76a072;
+     width: 33.3%;
   }
 
   #column-3 {
     background-color: #4a6148;
+     width: 33.3%;
   }
 
   footer {
